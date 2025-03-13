@@ -6628,7 +6628,7 @@ return false
 end 
 
 
-if text == '.' or text == 'المصنع' or text == 'مصنع'  then
+if text == 'uvaff' or text == 'ازلمصنع' or text == 'مخحصنع'  then
   local reply_markup = bot.replyMarkup{
   type = 'inline',
   data = {
