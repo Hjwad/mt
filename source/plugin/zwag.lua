@@ -24,11 +24,11 @@ return send(msg.chat_id,msg.id,"ابعد عني يحيحان ملكقتش غير
 end
 if Redis:sismember(Fast..msg.chat_id.."zwgat:",rep_idd) then
 local rd_mtzwga = {
-"اسف يصحبي متجوزه",
+"اسف متزوجهه",
 "متجوزه يبن عمي شفلك واحده تانيه",
-"يبني متجوزه اجوزهاشلك ازاي انا",
-"للاسف متجوزه بس لو العمليه جايبه اخرها شوف واحده تانيه",
-"يادي الكسفه طلعت متجوزه قبلك"
+"متزوج اني عوفني اخويه",
+"للاسف متجوزه بس لو العمليه نهايتها شوف غبري ",
+"خرب حضي طلعت مزوجه عزااا"
 }
 return send(msg.chat_id,msg.id,Reply_Status(rep_idd,rd_mtzwga[math.random(#rd_mtzwga)]).Reply,"md",true)
 else
@@ -84,9 +84,9 @@ local rd_tmtlaq = {
 return send(msg.chat_id,msg.id,Reply_Status(rep_idd,rd_tmtlaq[math.random(#rd_tmtlaq)]).Reply,"md",true)
 else
 local rd_tlaq = {
-"مكنتش اتجوزت عشان تطلق اصلا",
-"بايره محدش اتجوزها",
-"محدش عبرها قبل كدا اسسن"
+"انته اصلا مو مزوج شلون تريد تطلق",
+"محد مزوجها؟",
+"محد معبرها من صار لكروب "
 }
 return send(msg.chat_id,msg.id,Reply_Status(rep_idd,rd_tlaq[math.random(#rd_tlaq)]).Reply,"md",true)
 end
@@ -108,13 +108,13 @@ end
 if text == "رفع بقلبي" then
 local Message_Reply = bot.getMessage(msg.chat_id, msg.reply_to_message_id)
 if tonumber(Redis:get(Fast..msg.chat_id..rep_idd.."in_heart:")) == tonumber(senderr) then
-return send(msg.chat_id,msg.id,"مهو فقلبك ولا هي شغلانه","md")
+return send(msg.chat_id,msg.id,"بقلبك هاذ","md")
 elseif tonumber(rep_idd) == tonumber(senderr) then
-return send(msg.chat_id,msg.id,"انت اهبل يبني عاوز ترفع نفسك فقلبك ؟؟","md")
+return send(msg.chat_id,msg.id,"انت  ماتفهم تريد تنزل قلبك منك ؟؟","md")
 elseif tonumber(rep_idd) == tonumber(Fast) then
-return send(msg.chat_id,msg.id,"ابعد عني يبن الهبله","md")
+return send(msg.chat_id,msg.id,"وخر عني ضايج","md")
 elseif Redis:get(Fast..msg.chat_id..rep_idd.."in_heart:") then
-return send(msg.chat_id,msg.id,"للاسف العضو فقلب حد تاني","md")
+return send(msg.chat_id,msg.id,"للاسف العضو قلبه محجوز ","md")
 elseif tonumber(Redis:get(Fast..msg.chat_id..rep_idd.."in_heart:")) ~= tonumber(senderr) and not Redis:get(Fast..msg.chat_id..rep_idd.."in_heart:") then
 Redis:set(Fast..msg.chat_id..rep_idd.."in_heart:", senderr)
 Redis:sadd(Fast..msg.chat_id..senderr.."my_heart:", rep_idd)
@@ -128,16 +128,16 @@ Redis:del(Fast..msg.chat_id..rep_idd.."in_heart:")
 Redis:srem(Fast..msg.chat_id..senderr.."my_heart:", msg.chat_id..rep_idd)
 return send(msg.chat_id,msg.id,Reply_Status(rep_idd,"تم تنزيلو من قلبك").Reply,"md",true) 
 elseif tonumber(rep_idd) == tonumber(senderr) then
-return send(msg.chat_id,msg.id,"انت اهبل يبني عاوز تنزل نفسك من قلبك ؟؟","md")
+return send(msg.chat_id,msg.id,"انت  ماتفهم تريد تنزل قلبك منك ؟؟","md")
 elseif tonumber(rep_idd) == tonumber(Fast) then
-return send(msg.chat_id,msg.id,"ابعد عني يبن الهبله","md")
+return send(msg.chat_id,msg.id,"وخر عني ضايج","md")
 elseif tonumber(Redis:get(Fast..msg.chat_id..rep_idd.."in_heart:")) ~= tonumber(senderr)then
-return send(msg.chat_id,msg.id,"هو فقلبك اصلا عشان تنزلو ؟؟","md")
+return send(msg.chat_id,msg.id,"بقلبك هاذ ","md")
 end
 end
-if text == "انا فقلب مين" then
+if text == "انا بقلب منو" then
 if not Redis:get(Fast..msg.chat_id..senderr.."in_heart:") then
-return send(msg.chat_id,msg.id,"اقعد يعم انت محدش طايقك","md")
+return send(msg.chat_id,msg.id,"اكعد حبيبي محد مهتملك","md")
 elseif Redis:get(Fast..msg.chat_id..senderr.."in_heart:") then
 local in_heart_id = Redis:get(Fast..msg.chat_id..senderr.."in_heart:")
 local heart_name = bot.getUser(in_heart_id).first_name
@@ -147,7 +147,7 @@ end
 if text == "تاك للبقلبي" or text == "تاك للي فقلبي" or text == "تاك للناس الي فقلبي" then
 local heart_list = Redis:smembers(Fast..msg.chat_id..senderr.."my_heart:")
 if #heart_list == 0 then
-return send(msg.chat_id,msg.id,"قلبك فاضي محدش فيه","md")
+return send(msg.chat_id,msg.id,"قلبك مابيه احد فارغ ","md")
 elseif #heart_list > 0 then
 your_heart = "الناس الي فقلبك \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n"
 for k,v in pairs(heart_list) do
@@ -198,7 +198,7 @@ type = 'inline',
 data = {
 {
 {text = 'موافق', data = senderr..'/yes_zw/'..member_id},
-{text = 'مش موافق', data = senderr..'/no_zw/'..member_id},
+{text = 'مو موافق', data = senderr..'/no_zw/'..member_id},
 },
 }
 }
@@ -232,7 +232,7 @@ type = 'inline',
 data = {
 {
 {text = 'موافقه', data = rep_idd..'/yes_z/'..senderr},
-{text = 'مش موافقه', data = rep_idd..'/no_z/'..senderr},
+{text = 'مو موافقه', data = rep_idd..'/no_z/'..senderr},
 },
 }
 }
