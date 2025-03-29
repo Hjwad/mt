@@ -1,7 +1,7 @@
 function reply(msg)
 text = nil
 if msg and msg.content and msg.content.text then
-xname =  (Redis:get(Fast.."Name:Bot") or "براند") 
+xname =  (Redis:get(Fast.."Name:Bot") or "بوت") 
 text = msg.content.text.text
 if text:match("^"..xname.." (.*)$") then
 text = text:match("^"..xname.." (.*)$")
@@ -44,7 +44,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶• 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/ },
 },
 }
 }
@@ -55,7 +55,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -66,7 +66,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -77,7 +77,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -88,7 +88,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -99,7 +99,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -110,7 +110,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -121,7 +121,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -132,7 +132,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -144,7 +144,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -155,7 +155,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -166,7 +166,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text  =  '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍ ' , url =  t.me/uo_vn },
+{text  =  '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍ ' , url =  t.me/. },
 },
 }
 }
@@ -177,7 +177,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -188,7 +188,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn },
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. },
 },
 }
 }
@@ -199,7 +199,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -210,7 +210,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -221,7 +221,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -232,7 +232,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -243,7 +243,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -254,7 +254,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -265,7 +265,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -276,7 +276,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -288,7 +288,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -299,7 +299,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -310,7 +310,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -321,7 +321,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -332,7 +332,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -343,7 +343,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -354,7 +354,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -365,7 +365,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -376,7 +376,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -387,7 +387,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -398,7 +398,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -409,7 +409,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -420,7 +420,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -432,7 +432,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -443,7 +443,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -454,7 +454,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -465,7 +465,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -476,7 +476,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -487,7 +487,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -498,7 +498,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -509,7 +509,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -520,7 +520,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -531,7 +531,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -542,7 +542,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
@@ -553,7 +553,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/uo_vn }, 
+{text = '❍ 𓏶 . • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/. }, 
 },
 }
 }
