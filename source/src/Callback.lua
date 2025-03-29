@@ -536,7 +536,7 @@ if Text and Text:match('(%d+)/play_wheel') then
   local keyboard = {} 
   keyboard.inline_keyboard = {
   {
-  {text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+  {text = '• • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
   },
   }
   local msg_reply = msg_id/2097152/0.5
@@ -625,7 +625,7 @@ data = {
 {text = 'اخفاء', data = data.sender_user_id..'/delAmr'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .', url="t.me/uo_vn"},
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .', url="t.me/"},
 },
 }
 }
@@ -751,7 +751,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•  • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -826,7 +826,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -904,7 +904,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -977,7 +977,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -1062,7 +1062,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -1081,7 +1081,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -1100,7 +1100,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -1138,7 +1138,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1176,7 +1176,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1213,7 +1213,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1242,7 +1242,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -1257,7 +1257,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -1275,7 +1275,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•• 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/"}, 
 },
 }
 }
@@ -1411,7 +1411,7 @@ data = {
 {text = '0', data = IdUser..'calc&0'},{text = '.', data = IdUser..'calc&.'},{text = '+', data = IdUser..'calc&+'},{text = '=', data = IdUser..'equal'},
 },
 {
-{text = 'مطور الملف', url = 'http://t.me/FPFFG'},
+{text = 'مطور الملف', url = 'http://t.me/F_Q_1'},
 },
 }
 }
