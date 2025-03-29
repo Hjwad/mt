@@ -4027,7 +4027,7 @@ return send(msg_chat_id,msg_id,'\n*• تم تحديث السورس * ',"md",tru
 end
 if text == 'معلومات التنصيب' or text == 'معلومات التنصيب •' then
 if tonumber(msg.sender_id.user_id) == tonumber(Sudo_Id) then 
-return send(msg_chat_id,msg_id,'\n\n• التوكن : `'..Token..'`\n\n• معرف البوت : [@'..UserBot..']\n\n• ايدي المطور : `'..Sudo_Id..'`\n\n• معرف المطور : [@'..UserSudo..']',"md",true)  
+return send(msg_chat_id,msg_id,'\n\n• التوكن : `'شسوي بيه'`\n\n• معرف البوت : [@'..UserBot..']\n\n• ايدي المطور : `'..Sudo_Id..'`\n\n• معرف المطور : [@'..UserSudo..']',"md",true)  
 else
 return send(msg_chat_id,msg_id,'\n*• هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true) 
 end
