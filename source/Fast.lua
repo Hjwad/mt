@@ -1453,7 +1453,7 @@ if ChannelJoinch(msg) == false then
   return send(msg.chat_id,msg.id,'\n• عذرا عزيزي : ['..FlterBio(UserInfo.first_name)..'](tg://user?id='..msg.sender_id.user_id..')\n•- لايمكنك ارسال اي رسالة هنا لانك غير مشترك في قناة المجموعة اشترك الان ؛ ✅ ',"md",false, false, false, false, reply_markup)
   end
 
-if text == "كيبورد براند" then
+if text == "كيبورد " then
 list_key = Redis:smembers(Fast..msg.chat_id..'list_key'..msg.sender_id.user_id)
 if #list_key == 0 then
 reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
@@ -14374,7 +14374,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   }
   
   if photo.total_count > 0 then
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "بوت")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -14384,7 +14384,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
 }
   return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,NameBots[math.random(#NameBots)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
   else
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "بوت")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -14395,7 +14395,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   return send(msg_chat_id,msg_id,NameBots[math.random(#NameBots)],"md") 
   end 
   end
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "بوت")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -14427,7 +14427,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
     }
     
     if photo.total_count > 0 then
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "بوت")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -14437,7 +14437,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
       }
     return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,BotName[math.random(#BotName)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
     else
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "بوت")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -14448,7 +14448,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
     return send(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md") 
     end 
     end
-          local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+          local NamesBot = (Redis:get(Fast.."Name:Bot") or "بوت")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
