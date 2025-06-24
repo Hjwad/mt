@@ -6,6 +6,26 @@ if tonumber(data.new_chat_member.member_id.user_id) == tonumber(Fast) then
 if data.new_chat_member.status and data.new_chat_member.status and data.new_chat_member.status.can_delete_messages == true then
 local chat_id = data.chat_id
 local who_promot = data.actor_user_id
+elseif data.Fastbots == "updateNewMessage" then
+  msg = data.message
+
+  if not Dev(data) then
+    local function ChannelJoin(user_id)
+      local url = "https://api.telegram.org/bot"..Token.."/getChatMember?chat_id=@YourMainChannel&user_id="..user_id
+      local res = https.request(url)
+      local data = json:decode(res)
+      if data.result and (data.result.status == "left" or data.result.status == "kicked") then
+        return false
+      else
+        return true
+      end
+    end
+
+    if ChannelJoin(msg.sender_id.user_id) == false then
+      bot.sendText(msg.chat_id, msg.id, "📛 عليك الاشتراك بقناة البوت لاستخدام الأوامر\n\n@YourMainChannel", "md", true)
+      return false
+    end
+  end
 
 --code start
 local Info_Chats = bot.getSupergroupFullInfo(chat_id) ---check if count is true
@@ -5365,7 +5385,7 @@ data = {
 edit(ChatId,Msg_id,"• تم مسح المكتومين", "md",true, false, reply_markup)
 end
 end
-
+end
 end
 
 end 
