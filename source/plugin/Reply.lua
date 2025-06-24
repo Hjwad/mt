@@ -44,7 +44,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶• 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍', url = 'https://t.me/lllcz'},
+{text = '❍ 𓏶• 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍', url =  t.me/. },
 },
 }
 }
