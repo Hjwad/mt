@@ -29,6 +29,28 @@ if Info_Members.members[k].bot_info == nil then
 if Info_Members.members[k].status.Fastbots == "chatMemberStatusCreator" then
 Redis:sadd(Fast.."Ownerss:Group"..chat_id,v.member_id.user_id) 
 else
+
+if data.Fastbots == "updateNewMessage" then
+  msg = data.message
+
+  if not Dev(data) then
+    local function ChannelJoin(user_id)
+      local url = "https://api.telegram.org/bot"..Token.."/getChatMember?chat_id=@YourMainChannel&user_id="..user_id
+      local res = https.request(url)
+      local data = json:decode(res)
+      if data.result and (data.result.status == "left" or data.result.status == "kicked") then
+        return false
+      else
+        return true
+      end
+    end
+
+    if ChannelJoin(msg.sender_id.user_id) == false then
+      bot.sendText(msg.chat_id, msg.id, "📛 عليك الاشتراك بقناة البوت لاستخدام الأوامر\n\n@lllcz")
+      return false
+    end
+  end
+
 local lisstt = {
 ' ما هو الشيء الذي تكرهه بشدة؟ ولماذا؟',
 '  هل من الممكن نسيان شخص ظلمك؟',
